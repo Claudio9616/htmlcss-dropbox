@@ -1,5 +1,54 @@
-body{
-    font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif;
     font-family: 'Rubik Mono One', monospace;
+    primo font 300 secondo font 800 */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
 }
-/* primo font 300 secondo font 800 */
+body{
+    padding-top: 75px;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: brown;
+}
+.container{
+    width: 100%;
+    min-height: 80px;
+    margin: 0 auto; 
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 500;
+}
+.nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: #0061FF;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.left{
+    margin-right: 500px;
+}
