@@ -50,6 +50,7 @@ button{
     color: white;
     border: none;
     cursor: pointer;
+    display: inline-block;
 }
 .jumbotron{
     width: 100%;
@@ -71,7 +72,7 @@ h1{
     width: 374px;
     margin-right: 702px       
 }
-.jumbotron-container p,h4{
+.jumbotron-container p, h4{
     font-weight: 300;
 }
 .jumbotron-container button{
