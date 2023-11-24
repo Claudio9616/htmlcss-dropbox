@@ -92,7 +92,6 @@ h1{
 .main-center{
     width: 65%;
     min-height: 900px;
-    background-color: brown;
 }
 .main-center > h2{
     padding-top: 100px;
@@ -130,6 +129,7 @@ h1{
 .col{
     min-height: 80px;
     flex-basis: calc(100% / 3 - 80px / 3);
+    padding-bottom: 95px;
     border: 1px solid
 }
 .col-full{
@@ -148,7 +148,18 @@ h1{
     width: 85%;
     min-height: 70px;
     margin-top: 30px;
-    border: 1px solid white;
+}
+.main-card h2{
+    padding-bottom: 10px;
+}
+.main-card p{
+    padding-bottom: 5px;
+}
+.main-card .lightgrey{
+    color: lightslategray;
+}
+.main-card .user{
+    padding-top: 20px;
 }
 .text-main-card{
     display: flex;
@@ -158,10 +169,24 @@ h1{
     padding-top: 6px;
     padding-right: 4px;
 }
+.pd-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main-card > button{
+    margin-bottom: 20px;
+}
 .cube{
-    width: 30px;
+    width: 50px;
     height: 40px;
-    background-color: white;
+    margin-bottom: 25px;
     border-bottom: 1px solid;
     display: inline-block;
+}
+.main-card h4{
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.blue{
+    color: #0061FF
 }
