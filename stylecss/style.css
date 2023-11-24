@@ -54,7 +54,7 @@ button{
 }
 .jumbotron{
     width: 100%;
-    min-height: 500px;
+    min-height: 600px;
     background-color: #B4D0E7;
 }
 .jumbotron-container{
@@ -83,15 +83,85 @@ h1{
     padding: 30px 0 20px 0;
 }
 .img-jumbo{
-    height: 400px;
-    background-size: cover;
+    height: 410px;
     position: absolute;
     top: 50%;
     left: 50%;
     translate: -27% -7%;
 }
 .main-center{
-    width: 60%;
+    width: 65%;
     min-height: 900px;
     background-color: brown;
+}
+.main-center > h2{
+    padding-top: 100px;
+    font-weight: 800;
+    font-size: 2.3rem;
+}
+.main-center > ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 50px;
+}
+.text-billing{
+    margin-left: 0;
+    margin-right: 25px;
+}
+.circle{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 0;
+    margin-right: 5px;
+}
+.blu{ 
+    border: 5px solid #0061FF
+}
+.grey{
+    border: 3px solid #D1D1D4
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.col{
+    min-height: 80px;
+    flex-basis: calc(100% / 3 - 80px / 3);
+    border: 1px solid
+}
+.col-full{
+    flex-basis: 100%;
+    min-height: 80px;
+    border: 1px solid
+}
+.title-card{
+    border-bottom: 1px solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 5px 110px;
+}
+.main-card{
+    width: 85%;
+    min-height: 70px;
+    margin-top: 30px;
+    border: 1px solid white;
+}
+.text-main-card{
+    display: flex;
+}
+.text-main-card > i{
+    flex-shrink: 0;
+    padding-top: 6px;
+    padding-right: 4px;
+}
+.cube{
+    width: 30px;
+    height: 40px;
+    background-color: white;
+    border-bottom: 1px solid;
+    display: inline-block;
 }
