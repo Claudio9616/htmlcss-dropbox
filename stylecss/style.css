@@ -89,16 +89,16 @@ h1{
     left: 50%;
     translate: -27% -7%;
 }
-.main-center{
+.main-top{
     width: 65%;
     min-height: 900px;
 }
-.main-center > h2{
+.main-top > h2{
     padding-top: 100px;
     font-weight: 800;
     font-size: 2.3rem;
 }
-.main-center > ul{
+.main-top > ul{
     list-style-type: none;
     display: flex;
     padding-top: 50px;
@@ -122,19 +122,20 @@ h1{
     border: 3px solid #D1D1D4
 }
 .row{
+    padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
 }
 .col{
-    min-height: 80px;
+    min-height: 100px;
     flex-basis: calc(100% / 3 - 80px / 3);
     padding-bottom: 95px;
     border: 1px solid
 }
 .col-full{
     flex-basis: 100%;
-    min-height: 80px;
+    min-height: 200px;
     border: 1px solid
 }
 .title-card{
@@ -173,8 +174,12 @@ h1{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.pd-30{
+    padding-top: 30px;
+}
 .main-card > button{
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .cube{
     width: 50px;
@@ -188,5 +193,84 @@ h1{
     margin-bottom: 25px;
 }
 .blue{
-    color: #0061FF
+    color: #0061FF;
+}
+.text-long{
+    flex-grow: 1;
+}
+.pad{
+    padding: 5px 460px 5px 460px;
+    margin-bottom: 20px
+}
+.nav-bar-full{
+    display: flex;
+}
+.nav-bar-full h2{
+    margin-right: 590px;
+}
+.nav-bar-full button{
+    padding: 0px 30px 0 30px;
+}
+.text-full{
+    width: 940px;
+}
+.text-full h4:first-child{
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.text-full h4:last-child{
+    padding-right: 250px;
+}
+.main-center{
+    width: 65%;
+    min-height: 300px;
+}
+.row-nogap{
+    display: flex;
+    margin-top: 100px;
+}
+.col-2{
+    min-height: 80px;
+    flex-basis: calc(100% / 2);
+    padding-bottom: 95px;
+}
+.img-center{
+    background-image: url(../img/partner.png);
+    min-height: 500px;
+    background-size: cover;
+    width: 650px;
+}
+.text-center{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.text-center > h2{
+    padding-bottom: 20px;
+}
+.text-center > p{
+    padding-bottom: 35px;
+}
+.text-center > button{
+    padding: 10px 20px 10px 20px;
+    color: black;
+    border: 1px solid;
+    background-color: white;
+}
+.main-center > h2{
+    font-weight: 800;
+    font-size: 2.3rem;
+}
+.img-bottom{
+    background-image:url(../img/business-feature-switching-tools.png);
+    min-height: 200px;
+    background-size: cover;
+    display: block;   
+    margin-bottom: 20px;
+}
+.col > p{
+    margin-top: 35px;
+}
+.main-center .col{
+    border: none;
 }
