@@ -16,7 +16,7 @@ header{
     z-index: 1;
     background-color: white;
 }
-.container{
+.container-top{
     width: 100%;
     min-height: 80px;
     margin: 0 auto; 
@@ -136,6 +136,7 @@ h1{
 .col-full{
     flex-basis: 100%;
     min-height: 200px;
+    padding-bottom: 40px;
     border: 1px solid
 }
 .title-card{
@@ -261,8 +262,25 @@ h1{
     font-weight: 800;
     font-size: 2.3rem;
 }
-.img-bottom{
+#tools{
     background-image:url(../img/business-feature-switching-tools.png);
+}
+#files{
+    background-image: url(../img/business-feature-send-files-it.png);
+}
+#coordinate{
+    background-image: url(../img/business-feature-coordinate-it.png);
+}
+#integrations{
+    background-image: url(../img/business-feature-integrations-it.png)
+}
+#device{
+    background-image: url(../img/business-feature-multi-device.png);
+}
+#security{
+    background-image: url(../img/business-feature-security.png);
+}
+.img-bottom{    
     min-height: 200px;
     background-size: cover;
     display: block;   
@@ -274,3 +292,76 @@ h1{
 .main-center .col{
     border: none;
 }
+.main-footer-top{
+    width: 65%;
+    min-height: 250px;
+}
+.main-footer-top > h2{
+    font-weight: 800;
+    width: 475px;
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+.main-footer-top > a{
+    color: #0061FF;
+}
+.main-footer-up{
+    width: 100%;
+    min-height: 500px;
+}
+.col-3{
+    flex-basis: calc(100% / 3);
+    border: 1px solid;
+    min-height: 500px;
+}
+.side-col{
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;    
+}
+.cols{
+    flex-basis: calc(100% / 2);
+    position: relative;
+    border: 1px solid;
+}
+#green{
+    background-color: #A2D39B;
+}
+#brown{
+    background-color: #61082B;
+}
+#azure{
+    background-color: #0093CE;
+}
+#orange{
+    background-color: #FF1C1C;
+}
+#red{
+    background-color: #D5001F;
+}
+#aqua{
+    background-color: #B4D0E7
+}
+#blue{
+    background-color: #0D2481;
+}
+#yellow{
+    background-color: #FFD830;
+}
+.img-footer{
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    /* guardare registrazione sui SVG */
+    /* centralizza l'opacità delle img (mettere dentro questo selettore), dare un id alle immagini per regolarne le dimensioni
+    (in partitcolare togli da questo selettore l'altezza e dalla all'id della prima img)
+    controlla se è possibile centralizzare per alcune img le dimensioni  */
+}
+.footer-center{
+    background-color: rgb(5, 52, 37);
+}
+/* le img tops, designit ebycle sono uguali */
+
+
