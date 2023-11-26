@@ -36,7 +36,17 @@ header{
 }
 .nav-bar a {
     text-decoration: none;
-    color: black;
+    color: black;    
+}
+.border{
+    border-bottom: 2px solid;
+    border-bottom-style: hidden;    
+}
+/* chiedere se devo lasciare cosi o se vogliono il giochino che rimbalza */
+li:hover .border{
+    /* display: inline-block; */
+    border-bottom-style: solid;
+    padding-bottom: 35px;
 }
 .left{
     margin-left: 20px;
