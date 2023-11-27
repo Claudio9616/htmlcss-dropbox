@@ -15,44 +15,35 @@ header{
     left: 0;
     z-index: 1;
     background-color: white;
+    box-shadow: 0 2px #8888885b;
 }
-.container-top{
-    width: 100%;
-    min-height: 80px;
-    margin: 0 auto; 
-}
-.nav-header{
+#main-header{
+    height: 80px;
     display: flex;
     align-items: center;
 }
-.nav-bar{    
-    font-weight: 500;
-}
-.nav-bar ul{
+.nav-bar > ul{
     list-style-type: none;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
-.nav-bar a {
+.nav-bar > ul  li{
+    display: flex;
+    align-items: center;    
+}
+.nav-bar > ul  a{
+    display: flex;
+    align-items: center;
+    height: 90px;
     text-decoration: none;
-    color: black;    
-}
-.border{
+    color: black;
+    text-align: center;
     border-bottom: 2px solid;
-    border-bottom-style: hidden;    
+    border-bottom-style: hidden;
 }
-/* chiedere se devo lasciare cosi o se vogliono il giochino che rimbalza */
 li:hover .border{
-    /* display: inline-block; */
     border-bottom-style: solid;
-    padding-bottom: 35px;
-}
-.left{
-    margin-left: 20px;
-}
-.right{
-    margin-right: 20px;
 }
 button{
     background-color: #0061FF;
@@ -330,7 +321,16 @@ h1{
 }
 .cols{
     flex-basis: calc(100% / 2);
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid transparent;
+}
+.cols:hover{
+    border-color: rgba(255, 255, 255, 0.5)
+}
+.cols img{
+    filter: invert(100%);
 }
 #green{
     background-color: #A2D39B;
@@ -355,12 +355,6 @@ h1{
 }
 #yellow{
     background-color: #FFD830;
-}
-.img-footer{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
 }
 .h50{
     height: 50px;
