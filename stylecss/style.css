@@ -430,8 +430,14 @@ h1{
     font-weight: 800;
     border-bottom: 1px solid;
 }
+.visible{
+    visibility: hidden;
+}
 .none:hover{
     display: none;
+}
+.visible:hover{
+    visibility: visible;
 }
 .arrows{
     padding-left: 210px;
