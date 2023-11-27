@@ -8,6 +8,7 @@ body{
     padding-top: 75px;
     font-family: 'Open Sans', sans-serif; 
 }
+/* INIZIO HEADER */
 header{
     position: fixed;
     top: 0;
@@ -65,6 +66,7 @@ button:hover{
 a{
     color: #0061FF;
 }
+/* INIZIO JUMBOTRON */
 .jumbotron{
     width: 100%;
     min-height: 600px;
@@ -102,6 +104,7 @@ h1{
     left: 50%;
     translate: -27% -7%;
 }
+/* INIZIO MAIN-TOP */
 .main-top{
     width: 65%;
     min-height: 900px;
@@ -134,6 +137,7 @@ h1{
 .grey{
     border: 3px solid #D1D1D4
 }
+/* INIZIO CARD */
 .row{
     padding-top: 50px;
     display: flex;
@@ -236,6 +240,7 @@ h1{
 .text-full h4:last-child{
     padding-right: 250px;
 }
+/* INIZIO MAIN-CENTER */
 .main-center{
     width: 65%;
     min-height: 300px;
@@ -271,6 +276,7 @@ h1{
     border: 1px solid;
     background-color: white;
 }
+/* INIZIO MAIN-CENTER PT2 */
 .main-center > h2{
     font-weight: 800;
     font-size: 2.3rem;
@@ -305,6 +311,7 @@ h1{
 .main-center .col{
     border: none;
 }
+/* INIZIO MAIN-FOOTET-TOP */
 .main-footer-top{
     width: 65%;
     min-height: 250px;
@@ -318,6 +325,7 @@ h1{
 .main-footer-top > a{
     color: #0061FF;
 }
+/* INIZIO MAIN-FOOTER-UP */
 .main-footer-up{
     width: 100%;
     min-height: 500px;
@@ -395,6 +403,7 @@ h1{
     display: inline-block;
     width: 100px;
 }
+/* INIZIO MAIN-FOOTER-DOWN */
 .main-footer-down{
     width: 100%;
     min-height: 200px;
@@ -417,6 +426,7 @@ h1{
     bottom: 45px;
     left: 365px;
 }
+/* INIZIO MAIN-FOOTER-BOTTOM */
 .main-footer-bottom{
     width: 65%;
     min-height:550px;
@@ -425,7 +435,13 @@ h1{
     padding: 100px 0 60px 0;
     border-bottom: 1px solid;
 }
-.main-footer-bottom > h4{
+.main-footer-bottom > ul{
+   list-style-type: none;
+}
+.main-footer-bottom  ul li:first-child{
+    margin-top: 50px;
+}
+.none{
     padding: 30px 0 30px 0;
     font-weight: 800;
     border-bottom: 1px solid;
@@ -442,7 +458,8 @@ h1{
 .arrows{
     padding-left: 210px;
 }
-.footer-wh{
+/* INIZIO FOOTER */
+.footer-container{
     width: 100%;
     min-height: 500px;
     background-color: black;
